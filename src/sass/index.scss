@@ -1,0 +1,54 @@
+$transition_timing: 500ms;
+
+#wp-easy-notices {
+	left: -50%;
+	line-height: 1;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	transform: translate(50%, 0);
+	transition: transform $transition_timing ease-in-out;
+	width: 100vw;
+	z-index: 10;
+
+	&.bottom-fixed,
+	&.top-fixed {
+		position: fixed;
+	}
+
+	&.top-static,
+	&.top-fixed {
+		top: 0;
+	}
+
+	&.bottom-fixed {
+		bottom: 0;
+	}
+
+	.dismiss {
+		background: none !important;
+		border: none !important;
+		float: right;
+		margin: 0 16px 0 0 !important;
+		outline: none !important;
+		padding: 0 !important;
+
+		svg {
+			height: 100%;
+			width: 100%;
+		}
+	}
+}
+
+.admin-bar {
+
+	#wp-easy-notices.top-fixed,
+	#wp-easy-notices.top-static, {
+		top: 32px;
+	}
+}
+
+body {
+	transition: margin-bottom $transition_timing ease-in-out;
+	transition: margin-top $transition_timing ease-in-out;
+}
