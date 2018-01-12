@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name:  WP Easy Notices
-Plugin URI:   https://github.com/nateconley/wp-easy-notices
+Plugin URI:   https://wordpress.org/plugins/wp-easy-notices/
 Description:  Easily add a sitewide notice banner to your site!
 Version:      1.0.0
 Author:       Nate Conley

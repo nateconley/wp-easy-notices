@@ -12,7 +12,10 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 WP Easy Notices adds a simple notice bar to your site to display information to your visitors!
  
 == Description ==
+
 WP Easy Notices adds a simple notice bar to your site to display information to your visitors! Easily add notices and configure them right from the WordPress Customizer. Notices can also dismissable, and will stay hidden for users whether they are logged in or not. If you change your notice, simply clear dismissals and all users will see your notice again!
+
+[youtube https://www.youtube.com/watch?v=Oxg5UXuf9K4]
 
 == Installation ==
  
