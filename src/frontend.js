@@ -21,6 +21,8 @@ import removeNotice from './modules/removeNotice';
 		return;
 	}
 
+	noticeBar.style.display = 'block';
+
 	// Get the height of the admin bar
 	const height = Number(noticeBar.offsetHeight);
 
