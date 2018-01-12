@@ -169,11 +169,11 @@ class WP_Easy_Notices_Customizer {
 		) );
 
 		$wp_customize->add_control( 'wp_easy_notices_dismissable', array(
-			'label'   => __( 'Dismissable?', 'wp-easy-notices' ),
+			'label'   => __( 'Dismissible?', 'wp-easy-notices' ),
 			'section' => 'wp_easy_notices',
 			'type'    => 'radio',
 			'choices' => array(
-				'dismissable'  => __( 'Dismissable', 'wp-easy-notices' ),
+				'dismissable'  => __( 'Dismissible', 'wp-easy-notices' ),
 				'persistent'   => __( 'Persistent', 'wp-easy-notices' ),
 			),
 		) );
